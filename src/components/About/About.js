@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Hand from '../../images/hand.PNG';
 import AboutScss from './About.scss';
 

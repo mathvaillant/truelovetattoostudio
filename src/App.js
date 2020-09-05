@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 
 import Showcase from './components/Showcase/Showcase';
 import About from './components/About/About';
