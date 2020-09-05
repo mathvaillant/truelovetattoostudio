@@ -1,0 +1,33 @@
+@import '../../styles/_fonts.scss';
+
+.store {
+  background-color: $grey;
+  text-align: center;
+  opacity: 0.9;
+  h2 {
+    font-family: $primaryFont;
+    color: #fff;
+  }
+
+  .row {
+    .product {
+      .productImg {
+        opacity: 0.8;
+      }
+
+      .desc {
+        button {
+          border: none;
+          outline: none;
+          background-color: $red;
+          text-align: left;
+          padding: 0.5rem 2rem;
+          a {
+            font-size: 0.9rem;
+            
+          }
+        }
+      }
+    }
+  }
+}

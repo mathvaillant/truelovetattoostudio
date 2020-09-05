@@ -1,0 +1,39 @@
+@import '../../styles/_fonts.scss';
+
+* {
+  font-family: $primaryFont;
+}
+
+.contact {
+  background-color: #000;
+  opacity: 0.9;
+  .d-flex, .flex-column, .flex-md-row {
+    margin: auto 0rem;
+    .leftFooter {
+      
+      h5 {
+        color: #fff;
+      }
+    }
+
+    .rightFooter {
+        ul {
+          li {
+            color: $red;
+            font-weight: 600;
+            span {
+              font-weight: 800;
+              font-size: 1.4rem;
+            }
+          }
+      }
+      div {
+        h5 {
+          color: $red;
+          font-weight: 600;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}

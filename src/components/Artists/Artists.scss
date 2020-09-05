@@ -1,0 +1,31 @@
+@import '../../styles/_fonts.scss';
+
+h2, h3 {
+  font-family: $primaryFont;
+  color: #fff;
+}
+
+.artists {
+  background-color: $grey;
+  text-align: center;
+  opacity: 0.8;
+  border-top: 2px dashed rgba(255, 255, 255, 0.548);
+
+  .row {
+    .artist {
+      span {
+        font-family: $secondaryFont;
+        font-size: 0.8rem;
+        font-weight: 200;
+        font-style: italic;
+      }
+      ul {
+        li {
+          a {
+          }
+        }
+      }
+    }
+  }
+  
+}

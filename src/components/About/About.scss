@@ -1,0 +1,54 @@
+@import '../../styles/_fonts.scss';
+
+* {
+  font-family: $primaryFont;
+}
+
+.about {
+  opacity: 0.9;
+  .row {
+    .right {
+      background-color: $grey;
+      div {
+        padding: 3rem;
+        h2 {
+          font-size: 1rem;
+          font-weight: 700;
+          color: #fff;
+          text-align: left;
+        }
+        
+        h4 {
+          color: $red;
+          text-align: left;
+          font-family: $secondaryFont !important;
+        }
+        
+        p {
+          text-align: left;
+          font-size: 0.8rem;
+          letter-spacing: 1px;
+        }
+
+        p:first-of-type {
+          color: $red;
+        }
+  
+        p:last-of-type {
+          color: #fff;
+        }
+  
+        button {
+          border: none;
+          outline: none;
+          background-color: $red;
+          text-align: left;
+          padding: 0.5rem 2rem;
+          a {
+            font-size: 0.9rem;
+          }
+        }
+      }
+    }
+  }
+}
