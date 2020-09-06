@@ -1,7 +1,9 @@
+@import './styles/_bgGradient.scss';
+
 body, html {
   margin: 0px;
   padding: 0px; 
-  background-color: #000;
+  background: $background2;
   text-align: center;
 }
 

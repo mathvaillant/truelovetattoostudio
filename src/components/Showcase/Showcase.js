@@ -7,7 +7,7 @@ import Yang from '../../images/yin-yang.png';
 const Showcase = () => {
   return (
     <section className='containerFluid showcase'>
-      <div className='navbars row justify-content-center justify-content-md-between  mx-md-5 pt-md-5'>
+      <div className='navbars row justify-content-center justify-content-md-between m-0 pt-md-3 px-md-5'>
         <nav className='navRight d-none d-md-block'>
           <ul className="d-flex flex-row p-0">
               
@@ -53,8 +53,8 @@ const Showcase = () => {
         </nav>
 
         <nav className="smallDevice containerFluid d-md-none">
-          <div className="row text-center">
-            <ul className='smallUl row p-0'>
+          <div className="row text-center m-0">
+            <ul className='smallUl row p-2 m-0'>
               <li className='mr-1'><a href="#about">ABOUT US | </a></li>
               <li className='mx-1'><a href="#artists">ARTISTS | </a></li>
               <li className='mx-1'><a href="#store">STORE | </a></li>

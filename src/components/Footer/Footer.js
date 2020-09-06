@@ -5,9 +5,9 @@ import X from '../../images/x.png';
 import Leaf from '../../images/leaf.png';
 import Yang from '../../images/yin-yang.png';
 
-import Instagram from '../../images/instagram.png';
-import Facebook from '../../images/facebook.png';
-import Twitter from '../../images/twitter.png';
+import Instagram from '../../images/instagramblack.png';
+import Facebook from '../../images/facebookblack.png';
+import Twitter from '../../images/twitterblack.png';
 
 const Footer = () => {
   return (
@@ -32,7 +32,7 @@ const Footer = () => {
               </li>
             </ul>
 
-            <div className='text-center p-0 m-0'>
+            <div className='text-center pt-3 m-0'>
               <h5>OUR SOCIAL MEDIA:</h5>
               <ul className='row justify-content-center text-center p-0 m-0'>
                 <li className='mr-1'><a href="#"><img src={Instagram} alt=""/></a></li>

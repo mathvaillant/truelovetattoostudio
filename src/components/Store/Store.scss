@@ -1,7 +1,10 @@
 @import '../../styles/_fonts.scss';
+@import '../../styles/_bgGradient.scss';
+
 
 .store {
-  background-color: $grey;
+  background: $background1;
+  background: $background2;
   text-align: center;
   opacity: 0.9;
   h2 {
@@ -19,13 +22,20 @@
         button {
           border: none;
           outline: none;
-          background-color: $red;
+          background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(89,22,50,1) 0%, rgba(204,24,54,1) 100%);
           text-align: left;
           padding: 0.5rem 2rem;
+          transition: 1s;
           a {
             font-size: 0.9rem;
-            
           }
+          a:hover {
+            text-decoration: none;
+            color: #fff;
+          }
+        }
+        button:hover {
+          transform: scale(1.06);
         }
       }
     }

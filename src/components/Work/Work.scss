@@ -1,10 +1,22 @@
 @import '../../styles/_fonts.scss';
+@import '../../styles/_bgGradient.scss';
+
 
 .work {
-  background-color: $grey;
+  background: $background1;
+  background: $background2;
   text-align: center;
   opacity: 0.8;
   border-top: 2px dashed rgba(255, 255, 255, 0.548);
+
+  img {
+    transition: 0.7s;
+  }
+
+  img:hover {
+    transform: scale(1.15);
+  }
+
   h2 {
     font-family: $primaryFont;
     color: #fff;
