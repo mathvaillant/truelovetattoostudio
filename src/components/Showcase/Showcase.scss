@@ -95,15 +95,8 @@ li {
       .col-12, .col-md-4 {
         padding: 1rem 2rem 0rem 2rem; 
         text-align: center;
-        h1 {
-          font-family: $secondaryFont;
-          font-size: 1.3rem;
-          font-weight: 800;
-          color:$red;
-        }
-
         h4 {
-          font-family: $secondaryFont;
+          font-family: $secondaryFont !important;
           font-size: 1rem !important;
         }
       }

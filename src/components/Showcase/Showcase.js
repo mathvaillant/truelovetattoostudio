@@ -87,21 +87,18 @@ const Showcase = () => {
       </div>
 
 
-      <div className='container showcaseBottom'>
+      <div className='container showcaseBottom my-0 py-0'>
         <div className="d-flex flex-column flex-md-row">
           <div className='col-12 col-md-4'>
-            <h1>BEST TATTOO ARTISTS</h1>
             <h4>THE MOST AUTHENTIC IN THE CITY</h4>
           </div>
 
           <div className='col-12 col-md-4'>
-            <h1>GUARANTEED SATISFACTION</h1>
             <h4>WE WORK BY HEART</h4>
           </div>
 
           <div className='col-12 col-md-4'>
-            <h1>100% FRIENDLY</h1>
-            <h4>TATTOING IS ALSO A MATTER OF IT</h4>
+            <h4>IN THE HEART OF LISBON</h4>
           </div>
         </div>
         </div>
