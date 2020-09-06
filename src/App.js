@@ -7,6 +7,7 @@ import Store from './components/Store/Store';
 import Work from './components/Work/Work';
 import Artists from './components/Artists/Artists';
 import Footer from './components/Footer/Footer';
+import Map from './components/Map';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Store />
       <Work />
       <Artists />
+      <Map />
       <Footer />
     </div>
   );
