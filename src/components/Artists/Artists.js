@@ -1,5 +1,5 @@
 import React from 'react';
-import ArtistsScss from './Artists.scss';
+import './Artists.scss';
 import Anita from '../../images/00.PNG';
 import Instagram from '../../images/instagram.png';
 import Facebook from '../../images/facebook.png';

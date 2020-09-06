@@ -1,5 +1,5 @@
 import React from 'react';
-import FooterScss from './Footer.scss';
+import './Footer.scss';
 
 import X from '../../images/x.png';
 import Leaf from '../../images/leaf.png';

@@ -1,6 +1,6 @@
 import React from 'react';
 import Hand from '../../images/hand.PNG';
-import AboutScss from './About.scss';
+import './About.scss';
 
 const About = () => {
   return (

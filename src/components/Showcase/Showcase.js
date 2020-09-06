@@ -1,5 +1,5 @@
 import React from 'react';
-import ShowcaseScss from './Showcase.scss';
+import './Showcase.scss';
 import X from '../../images/x.png';
 import Leaf from '../../images/leaf.png';
 import Yang from '../../images/yin-yang.png';

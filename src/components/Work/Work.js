@@ -1,5 +1,5 @@
 import React from 'react';
-import WorkScsss from './Work.scss';
+import './Work.scss';
 import Work1 from '../../images/3.PNG';
 import Work2 from '../../images/4.PNG';
 import Work3 from '../../images/6.PNG';

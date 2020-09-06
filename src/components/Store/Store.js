@@ -1,5 +1,5 @@
 import React from 'react';
-import StoreScss from './Store.scss';
+import './Store.scss';
 import p1 from '../../images/p1.jpeg';
 import p2 from '../../images/p2.jpeg';
 import p3 from '../../images/p3.jpeg';
@@ -17,7 +17,7 @@ const Store = () => {
               <img className='img-fluid' src={p1} alt=""/>
             </div>
             <div className='p-0 mt-1 desc'>
-            <button><a href="https://anitatruelove.bigcartel.com/" target='_blank'>Check in store</a></button>
+            <button><a href="https://anitatruelove.bigcartel.com/" target='_blank' rel="noopener noreferrer">Check in store</a></button>
             </div>
           </div>
 
@@ -26,7 +26,7 @@ const Store = () => {
               <img className='img-fluid' src={p2} alt=""/>
             </div>
             <div className='p-0 mt-1 desc'>
-            <button><a href="https://anitatruelove.bigcartel.com/" target='_blank'>Check in store</a></button>
+            <button><a href="https://anitatruelove.bigcartel.com/" target='_blank' rel="noopener noreferrer">Check in store</a></button>
             </div>
           </div>
 
@@ -35,7 +35,7 @@ const Store = () => {
               <img className='img-fluid' src={p3} alt=""/>
             </div>
             <div className='p-0 mt-1 desc'>
-            <button><a href="https://anitatruelove.bigcartel.com/" target='_blank'>Check in store</a></button>
+            <button><a href="https://anitatruelove.bigcartel.com/" target='_blank' rel="noopener noreferrer">Check in store</a></button>
             </div>
           </div>
 
@@ -44,7 +44,7 @@ const Store = () => {
               <img className='img-fluid' src={p4} alt=""/>
             </div>
             <div className='p-0 mt-1 desc'>
-              <button><a href="https://anitatruelove.bigcartel.com/" target='_blank'>Check in store</a></button>
+              <button><a href="https://anitatruelove.bigcartel.com/" target='_blank' rel="noopener noreferrer">Check in store</a></button>
             </div>
           </div>
       </div>
