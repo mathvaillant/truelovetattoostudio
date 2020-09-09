@@ -52,39 +52,21 @@ li {
     h1, h2 {
       color: #fff;
       font-weight: 300;
-      font-family: $secondaryFont !important;
     }
 
     h1 {
       font-size: 3rem !important;
+      font-family: $tattooFont !important;
     }
 
     h2 {
       font-size: 0.8rem;
       font-style: italic;
+      font-family: $secondaryFont !important;
       img {
         width: 20px;
       }
     }
-
-    // form {
-    //   input {
-    //     background-color: transparent;
-    //     border:1.9px solid #fff;
-    //     border-radius: 2px;
-    //     color: #fff;
-    //     outline: none;
-    //     box-shadow: none;
-    //     padding: 0.3rem 2rem;
-    //     margin: 1rem;
-    //   }
-
-    //   input[type="submit"] {
-    //     background-color: $red !important;
-    //     border: none;
-    //     padding: 0.3rem 1.6rem;
-    //   }
-    // }
   }
 
   .showcaseBottom {
@@ -96,11 +78,22 @@ li {
         padding: 1rem 2rem 0rem 2rem; 
         text-align: center;
         h4 {
-          font-family: $secondaryFont !important;
-          font-size: 1rem !important;
+          font-family: $tattooFont !important;
+          font-size: 1.5rem !important;
+          color: rgb(255, 220, 220);
         }
       }
     }
+  }
+
+  .navScrollShow {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .navScrollNo {
+    display: none;
   }
 }
 

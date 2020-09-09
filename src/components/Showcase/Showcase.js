@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState, useEffect} from 'react';
 import './Showcase.scss';
 import X from '../../images/x.png';
 import Leaf from '../../images/leaf.png';
 import Yang from '../../images/yin-yang.png';
 
 const Showcase = () => {
+  
   return (
     <section className='containerFluid showcase'>
       <div className='navbars row justify-content-center justify-content-md-between m-0 pt-md-3 px-md-5'>
@@ -52,7 +53,7 @@ const Showcase = () => {
           </ul>
         </nav>
 
-        <nav className="smallDevice containerFluid d-md-none">
+        <nav className="smallDevice containerFluid d-md-none active">
           <div className="row text-center m-0">
             <ul className='smallUl row p-2 m-0'>
               <li className='mr-1'><a href="#about">ABOUT US | </a></li>
@@ -78,12 +79,6 @@ const Showcase = () => {
           {'  '} TATTOO STUDIO | Vegan Inks {'  '}
           <img src={Leaf} alt=""/>
         </h2>
-        {/* <form className='mt-5' action="">
-          <input type="email" name='email'  placeholder='YOUR EMAIL'/>
-          <input type="text" name='number'  placeholder='YOUR PHONE'/>
-          <br/>
-          <input type="submit" value='REQUEST CONTACT'/>
-        </form> */}
       </div>
 
 

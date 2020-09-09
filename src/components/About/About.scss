@@ -1,7 +1,7 @@
 @import '../../styles/_fonts.scss';
 @import '../../styles/_bgGradient.scss';
 
-* {
+ul, li, h1, h4, span {
   font-family: $primaryFont;
 }
 
@@ -23,7 +23,7 @@
         h4 {
           color: $red;
           text-align: left;
-          font-family: $secondaryFont !important;
+          font-family: $tattooFont !important;
         }
         
         p {
@@ -48,7 +48,9 @@
           padding: 0.5rem 2rem;
           transition: 1s;
           a {
-            font-size: 0.9rem;
+            font-size: 1rem;
+            letter-spacing: 0.1rem;
+            font-family: $tattooFont !important;
             
           }
           a:hover {
